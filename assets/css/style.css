@@ -190,6 +190,30 @@ nav .nav_btn {
     color: #2D3134;
 }
 
+.RJA-abs {
+    position: absolute;
+    top: 68%;
+    left: 6%;
+}
+
+.Dubai-abs {
+    position: absolute;
+    top: 74%;
+    left: 23%;
+}
+
+.navigation-abs {
+    position: absolute;
+    top: 9%;
+    left: 21%;
+}
+
+.globe-abs {
+    position: absolute;
+    top: 19%;
+    left: 90%;
+}
+
 .box-1 {
     background: #FDFEFF;
     box-shadow: 0px 28px 56px -6px rgba(246, 111, 77, 0.05);
@@ -1025,6 +1049,31 @@ footer div ul {
         grid-row: 2/3;
     }
 
+    .RJA-abs {
+        position: absolute;
+        top: 68%;
+        left: 22%;
+    }
+
+    .Dubai-abs {
+        position: absolute;
+        top: 74%;
+        left: 32%;
+    }
+
+    .navigation-abs {
+        position: absolute;
+        top: 8%;
+        left: 32%;
+    }
+
+    .globe-abs {
+        position: absolute;
+        top: 19%;
+        left: 73%;
+    }
+
+
 }
 
 @media (min-width:1200px) {
@@ -1036,6 +1085,31 @@ footer div ul {
     .white_s_no_lg {
         white-space: nowrap;
     }
+
+    .RJA-abs {
+        position: absolute;
+        top: 68%;
+        left: 6%;
+    }
+
+    .Dubai-abs {
+        position: absolute;
+        top: 74%;
+        left: 23%;
+    }
+
+    .navigation-abs {
+        position: absolute;
+        top: 8%;
+        left: 16%;
+    }
+
+    .globe-abs {
+        position: absolute;
+        top: 19%;
+        left: 90%;
+    }
+
 }
 
 @media (min-width:1300px) {
