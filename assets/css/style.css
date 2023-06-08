@@ -655,7 +655,7 @@ footer div ul {
 
     .show {
         left: 0;
-        transition: all 400ms ease-in-out;
+        transition: all 100ms ease-in-out;
     }
 
 
