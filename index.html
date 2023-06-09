@@ -56,10 +56,10 @@
                     </ul>
                 </div>
             </div>
-            <div class="linebox d-lg-none " onclick="navbartoggle()">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="linebox d-lg-none " onclick="navbartoggle(),myFunction(this)">
+                <span class="bar1"></span>
+                <span class="bar2"></span>
+                <span class="bar3"></span>
             </div>
             <div class="d-none d-lg-inline-block">
                 <button class="nav_btn d-flex align-items-center overflow-hidden"><span
@@ -86,7 +86,7 @@
             <div class="row flex-column-reverse flex-xl-row justify-content-between" id="Home">
                 <div class="col-xl-6">
                     <h1 class="ff_sen fw-bold fs_3xl mb-0 pt-md-5 pt-4">Discover the Best Lovely Places</h1>
-                    <p class="ff_inter fs_xmd color_lightblack pt-md-3 pt-3">Plan and book your perfect trip with expert
+                    <p class="ff_inter fs_xmd color_lightblack pt-md-3 py-4">Plan and book your perfect trip with expert
                         advice,
                         travel tips, destination information and
                         inspiration from us.</p>
@@ -178,7 +178,7 @@
                 <div class="container">
                     <div class="d-flex justify-content-between position-relative">
                         <div class="col-md-5">
-                            <h2 class="ff_inter fw-semibold fs_xxl">Categories</h2>
+                            <h2 class="ff_inter fw-semibold fs_xxl mt-5">Categories</h2>
                             <p class="ff_inter color_lightblack">Here are lots of interesting destinations to visit, but
                                 don’t
                                 be confused—they’re already grouped
@@ -323,15 +323,14 @@
             </section>
             <!-- slider-overflow -->
             <section class="my-lg-5 my-3  overflow_slider_bg overflow-hidden" data-aos="fade-right" id="Destinations">
-                <div class="container ">
+                <div class="container">
                     <div class="row z-1 py-4">
                         <div class="d-flex justify-content-between position-relative">
-                            <div class="col-md-5">
-                                <h2 class="ff_inter fw-semibold fs_xxl">Find Popular Destination</h2>
-
+                            <div class="col-md-5 mt-5">
+                                <h2 class="ff_inter fw-semibold fs_xxl ">Find Popular Destination</h2>
                             </div>
 
-                            <div class="d-flex justify-content-center gap-4">
+                            <div class="d-flex justify-content-center gap-4 pt-5">
                                 <div class="next2 position-absolute"><svg width="10" height="16" viewBox="0 0 10 16"
                                         fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -433,7 +432,7 @@
                     <p class="ff_inter text-center color_lightblack">Sost Brilliant reasons Entrada should be your
                         one-stop-shop!</p>
                     <div class="py-2 overflow-x-auto">
-                        <div class="m_w_600 d-flex justify-content-center gap-3 m-auto">
+                        <div class="m_w_600 d-flex justify-content-center gap-3 m-auto mb-4">
                             <div class="grid_button">London</div>
                             <div class="grid_button">Bangkok</div>
                             <div class="grid_button">England</div>
@@ -452,7 +451,7 @@
 
 
                                 <div class="d-flex w-100">
-                                    <p class="overlay_p px-2 rounded-2 ff_inter fs_xmd">3.5</p>
+                                    <p class="overlay_p px-2 rounded-5 ff_inter fs_xmd">3.5</p>
                                 </div>
                                 <div>
                                     <h4 class="ff_inter fw-semibold text-white fs_xmd">Vientam</h4>
@@ -473,7 +472,7 @@
 
 
                                 <div class="d-flex w-100">
-                                    <p class="overlay_p px-2 rounded-2 ff_inter fs_xmd">3.5</p>
+                                    <p class="overlay_p px-2 rounded-5 ff_inter fs_xmd">3.5</p>
                                 </div>
                                 <div>
                                     <h4 class="ff_inter fw-semibold text-white fs_xmd">Vientam</h4>
@@ -492,7 +491,7 @@
 
 
                                 <div class="d-flex w-100">
-                                    <p class="overlay_p px-2 rounded-2 ff_inter fs_xmd">3.5</p>
+                                    <p class="overlay_p px-2 rounded-5 ff_inter fs_xmd">3.5</p>
                                 </div>
                                 <div>
                                     <h4 class="ff_inter fw-semibold text-white fs_xmd">Vientam</h4>
@@ -511,7 +510,7 @@
 
 
                                 <div class="d-flex w-100">
-                                    <p class="overlay_p px-2 rounded-2 ff_inter fs_xmd">3.5</p>
+                                    <p class="overlay_p px-2 rounded-5 ff_inter fs_xmd">3.5</p>
                                 </div>
                                 <div>
                                     <h4 class="ff_inter fw-semibold text-white fs_xmd">Vientam</h4>
@@ -530,7 +529,7 @@
 
 
                                 <div class="d-flex w-100">
-                                    <p class="overlay_p px-2 rounded-2 ff_inter fs_xmd">3.5</p>
+                                    <p class="overlay_p px-2 rounded-5 ff_inter fs_xmd">3.5</p>
                                 </div>
                                 <div>
                                     <h4 class="ff_inter fw-semibold text-white fs_xmd">Vientam</h4>
@@ -549,7 +548,7 @@
 
 
                                 <div class="d-flex w-100">
-                                    <p class="overlay_p px-2 rounded-2 ff_inter fs_xmd">3.5</p>
+                                    <p class="overlay_p px-2 rounded-5 ff_inter fs_xmd">3.5</p>
                                 </div>
                                 <div>
                                     <h4 class="ff_inter fw-semibold text-white fs_xmd">Vientam</h4>
@@ -565,7 +564,7 @@
             </section>
             <!--men_with_camera -->
             <section class="mt-5 mt-lg-0 pb-4" data-aos="fade-right" id="Tours">
-                <div class="container">
+                <div class="container py-5">
                     <div class="row">
                         <div class="col-lg-6 d-flex justify-content-center justify-content-lg-start pb-lg-5">
                             <div><img class="w-100" src="./assets/images/men_with_camera.png" alt="men-img"></div>
@@ -573,7 +572,8 @@
                         <div class="col-lg-6 py-3">
 
                             <div class="box">
-                                <h2 class="ff_inter fw-semibold fs_xxl pt-4"><span class="orange_line">A C</span>ustomer
+                                <h2 class="ff_inter fw-semibold fs_xxl pt-4"><span class="orange_line pt-2">A
+                                        C</span>ustomer
                                     said about us:</h2>
                                 <div class="slider3">
                                     <div class="card_bg p-4 d-flex flex-column mt-4">
@@ -773,6 +773,10 @@
         function navbartoggle() {
             Nav.classList.toggle("show");
             document.body.classList.toggle("overflow_hidden")
+        }
+
+        function myFunction(x) {
+            x.classList.toggle("change");
         }
 
         $('.slider1').slick({
