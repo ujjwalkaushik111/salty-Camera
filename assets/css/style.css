@@ -194,24 +194,98 @@ nav .nav_btn {
     position: absolute;
     top: 68%;
     left: 6%;
+    animation-name: RJA;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes RJA {
+    50% {
+        transform: translate(0px, 20px);
+    }
 }
 
 .Dubai-abs {
     position: absolute;
     top: 74%;
     left: 23%;
+    animation-name: Dubai;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes Dubai {
+    50% {
+        transform: translate(30px, 0px);
+    }
 }
 
 .navigation-abs {
     position: absolute;
     top: 9%;
     left: 21%;
+    animation-name: map;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes map {
+    50% {
+        transform: translate(10px, 30px);
+    }
 }
 
 .globe-abs {
     position: absolute;
     top: 19%;
     left: 90%;
+    animation-name: globe;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes globe {
+    50% {
+        transform: rotatey(360deg) translate(-30px, 10px)
+    }
+}
+
+.location-abs {
+    top: 50%;
+    left: -5%;
+    animation-name: location;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes location {
+    50% {
+        transform: translate(0px, 30px);
+    }
+}
+
+.wifi-abs {
+    bottom: 0;
+    right: 0;
+    animation-name: wifi;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes wifi {
+    50% {
+        transform: translate(0px, 30px);
+    }
 }
 
 .box-1 {
@@ -316,6 +390,18 @@ nav .linebox span {
     box-shadow: 0px 24px 40px 0px #11111038;
 }
 
+.slider_card:hover .image-scale {
+    scale: 1.5;
+}
+
+.image-scale {
+    transition: all 300ms linear;
+}
+
+.grid_scale:hover .image-scale {
+    scale: 1.5;
+}
+
 .slick-tracking {
     display: flex !important;
 }
@@ -345,6 +431,8 @@ nav .linebox span {
     right: 100%;
     background-color: #faf8ed00;
 }
+
+
 
 .grid_container {
     display: grid;
@@ -393,6 +481,10 @@ nav .linebox span {
     transition: all 400ms linear;
 }
 
+.preloader-transition {
+    transition: all 500ms linear;
+}
+
 .nav_btn:hover .hidden_path path {
     display: none;
 }
@@ -405,7 +497,6 @@ nav .linebox span {
     top: 65%;
     left: -70px;
 }
-
 
 .item1 {
     grid-column: 1/2;
@@ -679,7 +770,7 @@ footer div ul {
 
     .show {
         left: 0;
-        transition: all 100ms ease-in-out;
+        transition: all 500ms ease-in-out;
     }
 
 
@@ -983,15 +1074,7 @@ footer div ul {
         --fs-3xl: 84px;
     }
 
-    .location-abs {
-        top: 50%;
-        left: -5%;
-    }
 
-    .wifi-abs {
-        bottom: 0;
-        right: 0;
-    }
 
     .next {
         right: 18%;
@@ -1116,6 +1199,33 @@ footer div ul {
     .project_nav {
         width: unset;
         overflow: unset;
+    }
+
+}
+
+@media (min-width:1400px) {
+    .RJA-abs {
+        position: absolute;
+        top: 68%;
+        left: 19%;
+    }
+
+    .Dubai-abs {
+        position: absolute;
+        top: 74%;
+        left: 33%;
+    }
+
+    .navigation-abs {
+        position: absolute;
+        top: 8%;
+        left: 25%;
+    }
+
+    .globe-abs {
+        position: absolute;
+        top: 19%;
+        left: 90%;
     }
 
 }

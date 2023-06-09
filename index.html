@@ -23,9 +23,14 @@
 </head>
 
 <body>
-    <section class="section_bg  overflow-hidden">
+    <section class="section_bg overflow-hidden">
 
-        <nav class="d-flex justify-content-between container py-3 align-items-center position-sticky top-0">
+        <div id="preloader"
+            class="min-vh-100 d-flex align-items-center justify-content-center bg-info position-fixed w-100 top-0 start-0 z-3 preloader-transition">
+            <div><img src="assets/images/logo.png" alt="#"></div>
+        </div>
+
+        <nav class="d-flex justify-content-between container py-3 align-items-center position-sticky top-0 z-1">
             <div class="d-flex align-items-center h-100">
                 <div class="pe-3">
                     <span class=""><img src="assets/images/logo.png" alt="logo"></span>
@@ -86,10 +91,10 @@
                         travel tips, destination information and
                         inspiration from us.</p>
 
-                    <div class="box-1 py-3">
+                    <div class="box-1 p-3 d-inline-block">
                         <div class="d-flex">
                             <div class=" d-flex align-items-center">
-                                <div class="ps-4">
+                                <div class="ps-2">
                                     <h2 class="color_darkblue fs_xxmd fw-medium mb-0 ">Where</h2>
                                     <p class="color_lightgray mb-0 fs_xxs">Center Point, Lo... <span class="ps-5"><svg
                                                 width="9" height="13" viewBox="0 0 9 13" fill="none"
@@ -152,8 +157,8 @@
                     </div>
                     <div class="d-flex align-items-center flex-column bg-white rounded-4 RJA-abs d-none d-sm-block">
                         <img src="assets/images/rajeshtan.png" alt="#">
-                        <h2 class="fs_xs pt-2">Dubai moruvumi</h2>
-                        <img src="assets/images/group-3.png" alt="#">
+                        <h2 class="fs_xs pt-2 ps-3">Dubai moruvumi</h2>
+                        <img class="ps-2" src="assets/images/group-3.png" alt="#">
                     </div>
                     <div class="Dubai-abs d-none d-sm-block">
                         <img src="assets/images/Dubai.png" alt="#">
@@ -268,8 +273,8 @@
                             <div class="ps-lg-5 "><img class="w-100" src="./assets/images/camera-men.png" alt="man-img">
                             </div>
                             <div
-                                class="box position-absolute d-flex align-items-center flex-column bg-white rounded-3 py-4 px-2 d-none d-lg-block location-abs">
-                                <div><img src="./assets/images/location_card.png" alt="location"></div>
+                                class="box position-absolute bg-white rounded-3 pt-4 px-2 d-none d-lg-block location-abs">
+                                <div class="ps-4"><img src="./assets/images/location_card.png" alt="location"></div>
                                 <h4 class="color_orange ff_poppins fw-semibold fs_sxl text-center pt-4">600%</h4>
                                 <p class="ff_inter color_lightgray fs_md">Destinations</p>
                             </div>
@@ -349,8 +354,9 @@
                         <div class="row slider2 z-1 py-2">
                             <div class=" d-flex justify-content-center mx-2 ">
                                 <div class="slider_card p-3 rounded-4 d-flex flex-column ">
-                                    <div>
-                                        <img class="w-100" src="./assets/images/overflow_slider_1_img.png" alt="img">
+                                    <div class="overflow-hidden rounded-4">
+                                        <img class="w-100 image-scale" src="./assets/images/overflow_slider_1_img.png"
+                                            alt="img">
                                     </div>
                                     <h4 class="ff_inter fw-semibold fs_md pt-3">Mountain Hiking Tour</h4>
                                     <p class="ff_inter fs_xs color_lightblack pt-2">Mountain Hiking Tour</p>
@@ -365,8 +371,9 @@
                             </div>
                             <div class=" d-flex justify-content-center mx-2 ">
                                 <div class="slider_card p-3 rounded-4 d-flex flex-column">
-                                    <div>
-                                        <img class="w-100" src="./assets/images/overflow_slider_2_inmg.png" alt="img">
+                                    <div class="overflow-hidden rounded-4">
+                                        <img class="w-100 image-scale" src="./assets/images/overflow_slider_2_inmg.png"
+                                            alt="img">
                                     </div>
                                     <h4 class="ff_inter fw-semibold fs_md pt-3">Machu Picchu, Peru</h4>
                                     <p class="ff_inter fs_xs color_lightblack pt-2">Machu Picchu, Peru</p>
@@ -381,8 +388,9 @@
                             </div>
                             <div class=" d-flex justify-content-center mx-2">
                                 <div class="slider_card p-3 rounded-4 d-flex flex-column">
-                                    <div>
-                                        <img class="w-100" src="./assets/images/overflow_slider_3_img.png" alt="img">
+                                    <div class="overflow-hidden rounded-4">
+                                        <img class="w-100 image-scale" src="./assets/images/overflow_slider_3_img.png"
+                                            alt="img">
                                     </div>
                                     <h4 class="ff_inter fw-semibold fs_md pt-3">The Grand Canyon,Arizona</h4>
                                     <p class="ff_inter fs_xs color_lightblack pt-2">MMountain Hiking Tour</p>
@@ -397,8 +405,9 @@
                             </div>
                             <div class=" d-flex justify-content-center mx-2">
                                 <div class="slider_card p-3 rounded-4 d-flex flex-column">
-                                    <div>
-                                        <img class="w-100" src="./assets/images/overflow_slider_4_img.png" alt="img">
+                                    <div class="overflow-hidden rounded-4">
+                                        <img class="w-100 image-scale" src="./assets/images/overflow_slider_4_img.png"
+                                            alt="img">
                                     </div>
                                     <h4 class="ff_inter fw-semibold fs_md pt-3">The Grand Canyon,Arizona</h4>
                                     <p class="ff_inter fs_xs color_lightblack pt-2">MMountain Hiking Tour</p>
@@ -434,8 +443,8 @@
                     </div>
                 </div>
                 <div class="grid_container body_bg gap-3 pt-4">
-                    <div class="item1 position-relative "><img class="w-100 h-100 grid_rel"
-                            src="./assets/images/grid-1.png" alt="nature_beauty">
+                    <div class="item1 position-relative overflow-hidden grid_scale rounded-5"><img
+                            class="w-100 h-100  image-scale" src="./assets/images/grid-1.png" alt="nature_beauty">
 
                         <div class="grid_hover_abs w-100">
                             <div
@@ -456,8 +465,8 @@
 
                     </div>
 
-                    <div class="item2 position-relative" data-aos="flip-left"><img class="w-100 h-100"
-                            src="./assets/images/grid-2.png" alt="nature_beauty">
+                    <div class="item2 position-relative grid_scale rounded-5 overflow-hidden" data-aos="flip-left"><img
+                            class="w-100 h-100 image-scale" src="./assets/images/grid-2.png" alt="nature_beauty">
                         <div class="grid_hover_abs w-100">
                             <div
                                 class="position-absolute top-0 d-flex flex-column justify-content-between h-100 ps-3 py-2 w-100">
@@ -475,8 +484,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item3 position-relative" data-aos="flip-left"><img class="w-100 h-100"
-                            src="./assets/images/grid-3.png" alt="nature_beauty">
+                    <div class="item3 position-relative grid_scale rounded-5 overflow-hidden" data-aos="flip-left"><img
+                            class="w-100 h-100 image-scale" src="./assets/images/grid-3.png" alt="nature_beauty">
                         <div class="grid_hover_abs w-100">
                             <div
                                 class="position-absolute top-0 d-flex flex-column justify-content-between h-100 ps-3 py-2 w-100">
@@ -494,8 +503,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item4 position-relative" data-aos="flip-left"><img class="w-100 h-100"
-                            src="./assets/images/grid-4.png" alt="nature_beauty">
+                    <div class="item4 position-relative grid_scale overflow-hidden rounded-5" data-aos="flip-left"><img
+                            class="w-100 h-100 image-scale" src="./assets/images/grid-4.png" alt="nature_beauty">
                         <div class="grid_hover_abs w-100">
                             <div
                                 class="position-absolute top-0 d-flex flex-column justify-content-between h-100 ps-3 py-2 w-100">
@@ -513,8 +522,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item5 position-relative" data-aos="flip-left"><img class="w-100 h-100"
-                            src="./assets/images/grid-5.png" alt="nature_beauty">
+                    <div class="item5 position-relative overflow-hidden grid_scale rounded-5" data-aos="flip-left"><img
+                            class="w-100 h-100 image-scale" src="./assets/images/grid-5.png" alt="nature_beauty">
                         <div class="grid_hover_abs w-100">
                             <div
                                 class="position-absolute top-0 d-flex flex-column justify-content-between h-100 ps-3 py-2 w-100">
@@ -532,8 +541,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item6 position-relative" data-aos="flip-left"><img class="w-100 h-100"
-                            src="./assets/images/grid-6.png" alt="nature_beauty">
+                    <div class="item6 position-relative rounded-5 overflow-hidden grid_scale" data-aos="flip-left"><img
+                            class="w-100 h-100 image-scale" src="./assets/images/grid-6.png" alt="nature_beauty">
                         <div class="grid_hover_abs w-100">
                             <div
                                 class="position-absolute top-0 d-flex flex-column justify-content-between h-100 ps-3 py-2 w-100">
@@ -568,7 +577,8 @@
                                     said about us:</h2>
                                 <div class="slider3">
                                     <div class="card_bg p-4 d-flex flex-column mt-4">
-                                        <p class="ff_inter color_lightblack fs_xxmd w-473">Salty helped me a lot in
+                                        <p class="ff_inter color_lightblack fs_xxmd ">Salty helped
+                                            me a lot in
                                             finding
                                             the best place for our first outdoor adventure trip. They responded very
                                             quickly and gave me a detailed account of the place—its history, as well as
@@ -581,8 +591,7 @@
                                                         alt="star"><img src="./assets/images/yellow_star.png"
                                                         alt="star"><img src="./assets/images/yellow_star.png"
                                                         alt="star"><img src="./assets/images/yellow_star.png"
-                                                        alt="star"><img src="./assets/images/yellow_star.png"
-                                                        alt="star"></span>
+                                                        alt="star"><img src="./assets/images/yellow_star.png"></span>
                                                 <h4 class="ff_inter fw-medium fs_xmd pt-3 mb-0">Andrew Sarma</h4>
                                                 <p class="ff_inter fs_xxs color_lightblack pt-2 mb-0">Enterpreneur</p>
                                             </div>
@@ -590,7 +599,7 @@
                                         </div>
                                     </div>
                                     <div class="card_bg p-4  d-flex flex-column mt-4">
-                                        <p class="ff_inter color_lightblack fs_xxmd w-473">Salty helped me a lot in
+                                        <p class="ff_inter color_lightblack fs_xxmd">Salty helped me a lot in
                                             finding
                                             the best place for our first outdoor adventure trip. They responded very
                                             quickly and gave me a detailed account of the place—its history, as well as
@@ -602,8 +611,8 @@
                                                             alt="star"><img src="./assets/images/yellow_star.png"
                                                             alt="star"><img src="./assets/images/yellow_star.png"
                                                             alt="star"><img src="./assets/images/yellow_star.png"
-                                                            alt="star"><img src="./assets/images/yellow_star.png"
-                                                            alt="star"></span>
+                                                            alt="star"><img
+                                                            src="./assets/images/yellow_star.png"></span>
                                                     <h4 class="ff_inter fw-medium fs_xmd pt-3 mb-0">Ujjwal kaushik</h4>
                                                     <p class="ff_inter fs_xxs color_lightblack pt-2 mb-0">Frontend
                                                         devloper
@@ -715,7 +724,7 @@
                                         <li><a href="#">Instagram post</a></li>
                                     </ul>
                                 </div>
-                                <div class="col-lg-2 col-sm-6 pt-3 pt-lg-0" data-aos="flip-left">
+                                <div class="col-lg-2 col-sm-6 pt-3 pt-lg-0 " data-aos="flip-left">
                                     <h3>Company</h3>
                                     <ul>
                                         <li><a href="#"> Travelling </a></li>
@@ -724,7 +733,7 @@
                                         <li><a href="#">Information</a></li>
                                     </ul>
                                 </div>
-                                <div class="col-lg-2 col-sm-6 pt-3 pt-lg-0" data-aos="flip-left">
+                                <div class="col-lg-2 col-sm-6 pt-3 pt-lg-0 " data-aos="flip-left">
                                     <h3>Get App</h3>
                                     <ul>
                                         <li><a href="#"> App Store</a></li>
@@ -882,6 +891,14 @@
 
             ]
         });
+
+        const preloader = document.getElementById("preloader")
+
+        setTimeout(() => {
+            preloader.classList.add("d-none")
+            // preloader.classList.add("pointer-event-none")
+            document.body.classList.remove("overflow-hidden")
+        }, 3000)
     </script>
     <script>
         AOS.init();
