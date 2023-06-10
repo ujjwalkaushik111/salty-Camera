@@ -237,7 +237,7 @@ nav .nav_btn {
 
 @keyframes map {
     50% {
-        transform: translate(10px, 30px);
+        transform: translate(10px, 20px);
     }
 }
 
@@ -310,22 +310,6 @@ nav .linebox span {
     background-color: black;
 
 }
-
-/* .hero_search_icon {
-    background-color: #F66F4D;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    transition: all 200ms linear;
-}
-
-.hero_search_icon:hover {
-    background-color: #2D3134;
-} */
 
 .hero_box {
     padding: 12px 10px;
@@ -1203,6 +1187,30 @@ footer div ul {
         position: absolute;
         top: 19%;
         left: 90%;
+    }
+
+    .prev3 {
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        transition: all 300ms linear;
+        align-items: center;
+        border: 1px solid #2D3134;
+        border-radius: 50px;
+        width: 50px;
+        transform: translate(430px, -70px);
+    }
+
+    .next3 {
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #2D3134;
+        border-radius: 50px;
+        width: 50px;
+        transition: all 300ms linear;
+        transform: translate(430px, -70px);
     }
 
 }
